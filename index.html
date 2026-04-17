@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Pesquisa com QR Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Pesquisar...">
+        <button onclick="search()">OK</button>
+    </div>
+
+    <div id="result"></div>
+
+    <!-- QR Code no canto da tela -->
+    <div id="qrcode"></div>
+
+    <script src="script.js"></script>
+    <!-- Biblioteca para gerar QR Code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</body>
+
+</html>
