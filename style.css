@@ -1,55 +1,14 @@
 body {
-    background-color: #000;
+    background-image: url("grid.png"); /* nome exato do arquivo */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     font-family: Arial, sans-serif;
     margin: 0;
-}
-
-.search-container {
-    background-color: #2c2c2c;
-    border-radius: 30px;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    width: 90%;
-    max-width: 500px;
-}
-
-input {
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
-    font-size: 16px;
-    flex: 1;
-}
-
-button {
-    background-color: #0078d7;
-    border: none;
-    color: #fff;
-    padding: 8px 15px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #005fa3;
-}
-
-#result {
-    margin-top: 20px;
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-}
-
-/* QR Code no canto inferior direito */
-#qrcode {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
 }
