@@ -8,4 +8,3 @@ function search() {
         resultDiv.textContent = "Você pesquisou por: " + input;
     }
 }
-
