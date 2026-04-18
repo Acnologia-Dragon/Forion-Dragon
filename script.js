@@ -1,10 +1,11 @@
-function search() {
-    const input = document.getElementById("searchInput").value;
-    const resultDiv = document.getElementById("result");
+const searchButton = document.getElementById("searchButton");
+const searchInput = document.getElementById("searchInput");
 
-    if (input.trim() === "") {
-        resultDiv.textContent = "Digite algo para pesquisar.";
-    } else {
-        resultDiv.textContent = "Você pesquisou por: " + input;
-    }
-}
+searchButton.addEventListener("click", () => {
+  const query = searchInput.value.trim();
+  if (query) {
+    alert("Você pesquisou por: " + query);
+  } else {
+    alert("Digite algo para pesquisar!");
+  }
+});
