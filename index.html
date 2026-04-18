@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barra de Pesquisa com QR Code</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Pesquisar...">
-        <button onclick="search()">OK</button>
-    </div>
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Bem-vindo ao meu site!</h1>
+  </header>
 
-    <div id="result"></div>
+  <!-- Área principal -->
+  <main>
+    <section id="barra-pesquisa">
+      <input type="text" id="searchInput" placeholder="Digite sua pesquisa...">
+      <button id="searchButton">Pesquisar</button>
+    </section>
+  </main>
 
-    <!-- QR Code no canto da tela -->
-    <div id="qrcode"></div>
+  <!-- Rodapé -->
+  <footer>
+    <p>© 2026 - Criado por Acnologia</p>
+  </footer>
 
-    <script src="script.js"></script>
-    <!-- Biblioteca para gerar QR Code -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
 </body>
-
 </html>
